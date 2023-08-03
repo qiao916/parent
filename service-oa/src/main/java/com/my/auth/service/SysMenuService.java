@@ -2,6 +2,7 @@ package com.my.auth.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.my.model.system.SysMenu;
+import com.my.vo.system.AssginMenuVo;
 
 import java.util.List;
 
@@ -20,4 +21,7 @@ public interface SysMenuService extends IService<SysMenu> {
      */
     List<SysMenu> findNodes();
 
+    List<SysMenu> findSysMenuByRoleId(Long roleId);
+
+    void doAssign(AssginMenuVo assignMenuVo);
 }

@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97e36830-fbf5-4aa8-9993-552bb075b81d" name="Changes" comment="" />
+    <list default="true" id="97e36830-fbf5-4aa8-9993-552bb075b81d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/my/auth/controller/SysMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/my/auth/controller/SysMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/my/auth/service/SysMenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/my/auth/service/SysMenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/my/auth/service/impl/SysMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/my/auth/service/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/my/auth/controller/SysMenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/my/auth/controller/SysMenuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/my/auth/service/SysMenuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/my/auth/service/SysMenuService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/my/auth/service/impl/SysMenuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/my/auth/service/impl/SysMenuServiceImpl.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +30,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -50,6 +61,7 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2TEhmZmqdOSP3AJkDbk0DXfXy6a" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -196,7 +208,7 @@
       <workItem from="1690634071068" duration="3198000" />
       <workItem from="1690640123572" duration="3564000" />
       <workItem from="1690699874064" duration="23321000" />
-      <workItem from="1691036754077" duration="981000" />
+      <workItem from="1691036754077" duration="3751000" />
     </task>
     <servers />
   </component>

@@ -4,6 +4,7 @@ package com.my.auth.controller;
 import com.my.auth.service.SysMenuService;
 import com.my.common.result.Result;
 import com.my.model.system.SysMenu;
+import com.my.vo.system.AssginMenuVo;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,6 +26,25 @@ import java.util.List;
 public class SysMenuController {
     @Autowired
     private SysMenuService sysMenuService;
+
+
+//### 1、给角色分配权限
+
+//1、进入分配页面：获取全部菜单及按钮，选中已选复选框，进行页面展示
+//2、保存分配权限：删除之前分配的权限和保存现在分配的权限
+    @ApiOperation(value = "根据角色获取菜单")
+    @GetMapping("toAssign/{roleId}")
+    public Result toAssign(@PathVariable Long roleId) {
+        List<SysMenu> list = sysMenuService.findSysMenuByRoleId(roleId);
+        return Result.ok(list);
+    }
+
+    @ApiOperation(value = "给角色分配权限")
+    @PostMapping("/doAssign")
+    public Result doAssign(@RequestBody AssginMenuVo assignMenuVo) {
+        sysMenuService.doAssign(assignMenuVo);
+        return Result.ok();
+    }
 
     @ApiOperation(value = "获取菜单")
     @GetMapping("findNodes")
